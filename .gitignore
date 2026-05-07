@@ -41,8 +41,8 @@ coverage/
 # Vite
 vite.config.ts.timestamp-*
 
-# generated docs
-docs/
+# # generated docs
+# docs/
 
 # local database
 *.sqlite
@@ -55,4 +55,4 @@ docs/
 ```
 
 *storybook.log
-storybook-static
+# storybook-static
