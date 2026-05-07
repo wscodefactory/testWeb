@@ -49,7 +49,7 @@ export function HeroSlider() {
         arrows={false}
         slidesToShow={1}
         slidesToScroll={1}
-        beforeChange={(_, next) => setActiveIndex(next)}
+        beforeChange={(_: number, next: number) => setActiveIndex(next)}
       >
         {slides.map((slide) => (
           <div key={slide.image}>
